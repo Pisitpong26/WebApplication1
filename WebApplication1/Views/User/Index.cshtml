@@ -1,0 +1,11 @@
+﻿@model IEnumerable<User>;
+
+<h1>Food Frensy</h1>
+
+@foreach(var user in Model)
+{
+    <p>Name : @user.Name</p>
+    <p>Phone : @user.Phone</p>
+    
+}
+
